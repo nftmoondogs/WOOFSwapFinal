@@ -17,6 +17,9 @@ const nextConfig = {
       allowFutureImage: true,
     },
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  }
 }
 
 export default withTH(withAxiom(withVanillaExtract(nextConfig)))

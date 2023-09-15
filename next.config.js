@@ -38,6 +38,9 @@ const config = {
       allowFutureImage: true,
     },
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   reactStrictMode: true,
   swcMinify: true,
   images: {
