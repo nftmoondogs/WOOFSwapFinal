@@ -2,7 +2,7 @@ import { StaticJsonRpcProvider } from '@ethersproject/providers'
 
 export const bscProvider = new StaticJsonRpcProvider(
   {
-    url: 'https://rpc1.shadowswap.xyz',
+    url: 'https://rpc.coredao.org',
     skipFetchSetup: true,
   },
   1116,

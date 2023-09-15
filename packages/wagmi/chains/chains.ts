@@ -74,8 +74,8 @@ export const bsc: Chain = {
   name: 'CORE Chain',
   network: 'bsc',
   rpcUrls: {
-    public: 'https://rpc1.shadowswap.xyz',
-    default: 'https://rpc1.shadowswap.xyz',
+    public: 'https://rpc.coredao.org',
+    default: 'https://rpc.coredao.org',
   },
   blockExplorers: {
     default: bscExplorer,
