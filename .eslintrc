@@ -37,9 +37,5 @@
     "no-nested-ternary": 0,
     "max-classes-per-file": 0,
     // End temporary rules
-    "react/jsx-curly-brace-presence": [
-      "error",
-      { "props": "never", "children": "never" }
-    ],
   }
 }
