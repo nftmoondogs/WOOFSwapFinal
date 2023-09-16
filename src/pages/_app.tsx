@@ -67,17 +67,17 @@ function MyApp(props: AppProps) {
         />
         <meta
           name="description"
-          content="😈ShadowSwap, the #1 DEX on Core Chain with the best farms in DeFi, a NFT AMM Dex and a lending protocol."
+          content="😈WoofSwap, the #1 DEX on Core Chain with the best farms in DeFi, a NFT AMM Dex and a lending protocol."
         />
         <meta name="theme-color" content="#9370DB" />
         {/* <meta name="twitter:image" content="https://shadowswap.xyz/images/shdwhero.png" /> */}
         <meta name="twitter:image" content="https://i.ibb.co/r5bx1Gp/Safeimagekit-resized-img-22.png" />
         <meta
           name="twitter:description"
-          content="The #1 AMM on CORE! Trade|| Earn || IFO || Vote || NFT AMM on a platform you can trust."
+          content="The #1 AMM on CORE! Trade|| Earn || IFO || Vote || NFT on a platform you can trust."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="ShadowSwap - #1 DeFi Exchange on Core Chain" />
+        <meta name="twitter:title" content="WoofSwap - #1 DeFi Exchange on Core Chain" />
         <title>WoofSwap</title>
         {(Component as NextPageWithLayout).mp && (
           // eslint-disable-next-line @next/next/no-sync-scripts
