@@ -70,7 +70,8 @@ function MyApp(props: AppProps) {
           content="😈ShadowSwap, the #1 DEX on Core Chain with the best farms in DeFi, a NFT AMM Dex and a lending protocol."
         />
         <meta name="theme-color" content="#9370DB" />
-        <meta name="twitter:image" content="https://shadowswap.xyz/images/shdwhero.png" />
+        {/* <meta name="twitter:image" content="https://shadowswap.xyz/images/shdwhero.png" /> */}
+        <meta name="twitter:image" content="https://i.ibb.co/r5bx1Gp/Safeimagekit-resized-img-22.png" />
         <meta
           name="twitter:description"
           content="The #1 AMM on CORE! Trade|| Earn || IFO || Vote || NFT AMM on a platform you can trust."
