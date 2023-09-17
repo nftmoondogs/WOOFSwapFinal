@@ -94,7 +94,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
             <Button
               data-theme="light"
               as="a"
-              // href="https://shadowswap.xyz/swap?outputCurrency=0xddBa66C1eBA873e26Ac0215Ca44892a07d83aDF5&chainId=1116"
+              // href="https://shadowswap.xyz/swap?outputCurrency=0x5c44d3d2312aba4d5f2406a98bf374bc76455092&chainId=1116"
               href="#"
               // target="_blank"
               scale="sm"

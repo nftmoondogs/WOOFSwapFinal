@@ -10,7 +10,7 @@ const Wrapper = styled(Page)`
 const PageLoader: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <Wrapper>
-      <img src="/images/ShadowSwap.gif" alt="Shadowswap" className="Shadow-Gif" />
+      <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" />
     </Wrapper>
   )
 }

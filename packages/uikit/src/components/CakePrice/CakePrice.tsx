@@ -32,8 +32,8 @@ const CakePrice: React.FC<React.PropsWithChildren<Props>> = ({
   return cakePriceUsd ? (
     <PriceLink
       href="#"
-    // href="https://shadowswap.xyz/swap?outputCurrency=0xddBa66C1eBA873e26Ac0215Ca44892a07d83aDF5&chainId=1116"
-    // target="_blank"
+      // href="https://shadowswap.xyz/swap?outputCurrency=0x5c44d3d2312aba4d5f2406a98bf374bc76455092&chainId=1116"
+      // target="_blank"
     >
       <LogoRound width="24px" mr="8px" />
       <Text color={color} bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>

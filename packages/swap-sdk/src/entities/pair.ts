@@ -62,12 +62,13 @@ export class Pair {
     const tokenAmounts = currencyAmountA.currency.sortsBefore(tokenAmountB.currency) // does safety checks
       ? [currencyAmountA, tokenAmountB]
       : [tokenAmountB, currencyAmountA]
+
     this.liquidityToken = new Token(
       tokenAmounts[0].currency.chainId,
       Pair.getAddress(tokenAmounts[0].currency, tokenAmounts[1].currency),
       18,
-      'SHDW-LP',
-      'Shadow LPs'
+      'WOOF-LP',
+      'Woof LPs'
     )
     this.tokenAmounts = tokenAmounts as [CurrencyAmount<Token>, CurrencyAmount<Token>]
   }

@@ -19,7 +19,7 @@ import {
 } from './styles'
 import { PancakeSquadHeaderType } from './types'
 
-const DEFAULT_CAKE_COST = 0.00
+const DEFAULT_CAKE_COST = 0.0
 const DEFAULT_MAX_TICKETS = 10
 
 const PancakeSquadHeader: React.FC<React.PropsWithChildren<PancakeSquadHeaderType>> = ({
@@ -144,7 +144,12 @@ const PancakeSquadHeader: React.FC<React.PropsWithChildren<PancakeSquadHeaderTyp
                     )}
                   </>
                 )}
-                {isLoading && (userStatus === UserStatusEnum.UNCONNECTED ? <ConnectWalletButton /> : <img src="/images/ShadowSwap.gif" alt="Shadowswap" className="Shadow-Gif" />)}
+                {isLoading &&
+                  (userStatus === UserStatusEnum.UNCONNECTED ? (
+                    <ConnectWalletButton />
+                  ) : (
+                    <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" />
+                  ))}
               </Flex>
             </Flex>
           </StyledSquadEventContainer>

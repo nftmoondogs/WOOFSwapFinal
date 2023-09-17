@@ -35,7 +35,7 @@ const VoteDetailsModal: React.FC<React.PropsWithChildren<VoteDetailsModalProps>>
       <Box mb="24px" width={['100%', '100%', '100%', '320px']}>
         {isLoading ? (
           <Flex height="450px" alignItems="center" justifyContent="center">
-            <img src="/images/ShadowSwap.gif" alt="Shadowswap" className="Shadow-Gif" sizes="50" />
+            <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" sizes="50" />
           </Flex>
         ) : (
           <>

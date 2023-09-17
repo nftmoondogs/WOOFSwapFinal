@@ -43,7 +43,7 @@ export const bscTokens = {
   ),
   woof: new Token(
     ChainId.BSC,
-    '0xd4cb72ac8fb75c0178a2e3d2b87f77e2b7ead3f2',
+    '0x5c44d3d2312aba4d5f2406a98bf374bc76455092',
     18,
     'WOOF',
     'Moon Dogs',

@@ -115,7 +115,7 @@ export const getStaticProps: GetStaticProps = async () => {
         pancakeFactories(first: 1) {
           totalLiquidityUSD
         }
-        token(id: "0xddBa66C1eBA873e26Ac0215Ca44892a07d83aDF5") {
+        token(id: "0x5c44d3d2312aba4d5f2406a98bf374bc76455092") {
           derivedUSD
         }
       }

@@ -74,7 +74,7 @@ const ConfirmModal: React.FC<React.PropsWithChildren<ConfirmModalProps>> = ({
                     {loadingText}
                   </Text>
                 </Box>
-            <img src="/images/ShadowSwap.gif" alt="Shadowswap" className="Shadow-Gif" width="200px" />
+                <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" width="200px" />
               </Flex>
               <Button width="100%" variant="secondary" disabled>
                 {loadingButtonLabel}
