@@ -148,7 +148,7 @@ const PancakeSquadHeader: React.FC<React.PropsWithChildren<PancakeSquadHeaderTyp
                   (userStatus === UserStatusEnum.UNCONNECTED ? (
                     <ConnectWalletButton />
                   ) : (
-                    <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" />
+                    <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" width="200px" />
                   ))}
               </Flex>
             </Flex>

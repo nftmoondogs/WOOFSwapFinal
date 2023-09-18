@@ -235,7 +235,7 @@ const TokenPage: React.FC<React.PropsWithChildren<{ routeAddress: string }>> = (
         )
       ) : (
         <Flex mt="80px" justifyContent="center">
-          <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" />
+          <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" width="200px" />
         </Flex>
       )}
     </Page>

@@ -26,7 +26,7 @@ function ConfirmationPendingContent({ trade }: { trade: Trade<Currency, Currency
   return (
     <Wrapper>
       <ConfirmedIcon>
-        <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" />
+        <img src="/images/woof.gif" alt="WoofSwap" className="Shadow-Gif" width="200px" />
       </ConfirmedIcon>
       <AutoColumn gap="12px" justify="center">
         <Text fontSize="20px">{t('Waiting For Confirmation')}</Text>
