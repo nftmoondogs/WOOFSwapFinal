@@ -23,7 +23,8 @@ export enum Rounding {
   ROUND_UP,
 }
 
-export const FACTORY_ADDRESS = '0x326Ee96748E7DcC04BE1Ef8f4E4F6bdd54048932'
+// export const FACTORY_ADDRESS = '0x326Ee96748E7DcC04BE1Ef8f4E4F6bdd54048932'
+export const FACTORY_ADDRESS = '0x4D052D685243B4e9827CcDD7D56b3a8366B86c8f'
 
 // // TODO: ETH This is test version, do not depends on it
 const FACTORY_ADDRESS_ETH = '0xD93801d7D3a368D94A3A32E97A20f7aC1948a5dB'
@@ -35,7 +36,8 @@ export const FACTORY_ADDRESS_MAP: Record<number, string> = {
   [ChainId.BSC]: FACTORY_ADDRESS,
   [ChainId.BSC_TESTNET]: '0x6725f303b657a9451d8ba641348b6761a6cc7a17',
 }
-export const INIT_CODE_HASH = '0xcfeb1f8754759f0abe461dd409d6d501fdd73b91a848c483faa6db0faf53c3bd'
+// export const INIT_CODE_HASH = '0xcfeb1f8754759f0abe461dd409d6d501fdd73b91a848c483faa6db0faf53c3bd'
+export const INIT_CODE_HASH = '0xae40e7208f41ea94a74a0de45038cea2fa96f2bfeb4d7c5387c0fdfff1d91cd6'
 
 const INIT_CODE_HASH_ETH = '0x57224589c67f3f30a6b0d7a1b54cf3153ab84563bc609ef41dfb34f8b2974d2d'
 export const INIT_CODE_HASH_MAP: Record<number, string> = {
